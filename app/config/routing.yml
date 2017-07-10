@@ -1,0 +1,7 @@
+cvilleger_swaggerui:
+    resource: "@CvillegerSwaggeruiBundle/Resources/config/routing.yml"
+    prefix:   /doc
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
